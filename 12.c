@@ -5,7 +5,8 @@ int main() {
     scanf("%d %d", &a, &b);
 
     
-    while (a != b) {
+    while (a != b) 
+    {
         if (a > b)
             a = a - b;
         else
